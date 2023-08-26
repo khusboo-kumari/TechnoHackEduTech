@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  border: border-box;
+}
+.navbar {
+  height: 60px;
+
+  background-color: rgb(48, 47, 47);
+  color: white;
+  display: flex;
+  align-items: center;
+  /* To give all equal space between boxes  we use this */
+  justify-content: space-between;
+}
+
+.nav_logo {
+  height: 45px;
+  width: 139.73px;
+
+  margin-bottom: 25px;
+}
+
+.logo {
+  /* background-image: url("logo.webp"); */
+  background-image: url("amazon_logo.png");
+  background-size: cover;
+  height: 60px;
+  width: 122px;
+  /* width: 122.33px;  */
+}
+.border {
+  border: 2px solid transparent;
+}
+.border:hover {
+  border: 1.5px solid white;
+}
+.Mainaddress:hover {
+  border: 1.5px solid white;
+}
+
+/* Style for box2 i.e Select  your address */
+
+.firstName {
+  font-size: 0.9rem;
+  margin-left: 25px;
+}
+.lastName {
+  font-size: 1rem;
+}
+.add-icon {
+  display: flex;
+  line-height: 30px;
+  text-indent: 5px;
+  align-items: center;
+}
+
+/* Style for BOX 3, search bar wala hihihihi  */
+.nav-search {
+  display: flex;
+  margin-left: 25px;
+  background-color: plum;
+  width: 326px;
+  height: 40px;
+  border-radius: 6px;
+  /* Now to spread evenly */
+  justify-content: space-evenly;
+}
+.search-select {
+  background-color: antiquewhite;
+  width: 50px;
+  text-align: center;
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.search-icon {
+  width: 45px;
+  /* height: 40px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  background-color: rgb(230, 171, 22);
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  color: black;
+}
+
+.nav-search:hover {
+  border: 2px solid orange;
+}
+
+/* .language{
+   background-image: url("united-states.png"); 
+   background-size: cover;
+   height: 38px;
+   width: 24px;
+   padding-right: 100px;
+} */
+
+/* Box 4 Styling */
+span {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+/* Box 6 Styling for the cart */
+.nav-cart i {
+  font-size: 28px;
+  /* padding-right: 20px; */
+}
+
+.nav-cart {
+  font-size: 0.85rem;
+  font-weight: 500;
+  /* padding-right: 45px; */
+}
+
+/* Panel Styling */
+.panel {
+  height: 40px;
+  background-color: #1f3042;
+  display: flex;
+  color: white;
+  /* Verical allighnment */
+  align-items: center;
+
+  /* Horizontal allignment */
+  justify-content: space-evenly;
+}
+.panel-options p {
+  display: inline;
+   /* Now lets add margin to these options  */ 
+   margin: 19px;
+
+}
+
+/* For occupying the panel options space */
+.panel-options{
+    width: 75%;
+    font-size: 0.9rem;
+   
+}
+
+.panel-deals{
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* Hero Section */
+.hero-section{
+    background-image: url("AmznPhoto.jpg");
+    background-size: cover;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    /* Now to move the msg at the button use this property */
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: aliceblue;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-msg a{
+    color: #007185;
+    text-decoration: none;
+}
+
+/* Shop SEction */
+.shop-section{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #F5F5DC;
+  flex-wrap: wrap;
+}
+.common{
+  /* border: 2px solid black; */
+  border: 8px solid white;
+  height: 300px;
+  width: 23%;
+  background-color: aliceblue;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
+}
+
+.box-img{
+  height: 300px;
+  
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* background-image: contain; */
+  /* margin-top: 1rem; */
+  /* margin-bottom: 1rem; */
+  
+}
+
+.box-content{
+  margin-bottom: 1rem;
+  /* margin-right: 0.8rem; */
+  /* margin: 1rem; */
+  /* margin-left: 0.8rem; */
+  /* padding-bottom: 100px; */
+  /* align-items: center; */
+  /* margin-top: 1rem; */
+}
+
+.box-content h2{
+  font-weight: 500;
+  color: #0e0e0e;
+  /* color: #007185; */
+}
+
+.box-content p{
+  color: #007185;
+}
+
+
+/* Footer Section */
+.footer{
+  margin-top: 15px;
+}
+.foot-panel1{
+  background-color: #37475a;
+  color: white;
+  margin-top: 50px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem; 
+}
+
+.foot-panel2{
+  background-color: #222f3d;
+  color: white;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly; 
+}
+ul{
+  margin: 40px;
+}
+ul a{
+  display: block;
+  font-size: 0.85rem; 
+  margin-top: 10px;
+  color: #dddddd;
+}
+
+.foot-panel3{
+  background-color: #222f3d;
+  color: #dddddd;
+  border-top: 0.5px solid white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logo{
+  /* background-image: url("logo.webp"); */
+  /* background-image: url("amazon_logo.png");
+  background-size: cover;
+  height: 60px;
+  width: 120px; */
+  /* width: 122.33px;  */
+  /* All Commented out because amazon logo properties are already defined */
+}
+
+.foot-panel4{
+  background-color: #0f1111;
+  color: aliceblue;
+  height: 90px;
+  /* display: flex; */
+  font-size: 0.9rem;
+  /* align-items: center; */
+  /* justify-content: center; */
+  text-align: center;
+
+}
+
+.pages{
+   /* font-size: 0.8rem; */
+   /* text-align: center; */
+   padding: 25px;
+}
+.copyright{
+  padding-top: 3px;
+   /* font-size: 0.8rem; */
+    /* text-align: center; */
+}
